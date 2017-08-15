@@ -48,3 +48,5 @@ const char* PASSWORD = "27012016"; // Senha da rede WI-FI que deseja se conectar
 ```
 
 Para executar o código basta fazer upload para a sua placa através da IDE do arduino.
+
+### MIT License
