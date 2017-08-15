@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "Telemetry": {
+    "dataSource": "iot-monitor",
+    "public": true
+  },
+  "Device": {
+    "dataSource": "iot-monitor",
+    "public": true
+  }
+}

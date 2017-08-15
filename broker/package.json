@@ -1,0 +1,14 @@
+{
+  "name": "broker",
+  "version": "1.0.0",
+  "description": "MQTT broker",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mosca": "^2.5.2"
+  }
+}

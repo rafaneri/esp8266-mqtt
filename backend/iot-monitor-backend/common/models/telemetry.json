@@ -1,0 +1,27 @@
+{
+  "name": "Telemetry",
+  "plural": "telemetries",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "device": {
+      "type": "string",
+      "required": true
+    },
+    "temperature": {
+      "type": "number",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,12 @@
+{
+  "iot-monitor": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost:27017/iot-monitor",
+    "database": "iot-monitor",
+    "password": "",
+    "name": "iot-monitor",
+    "user": "",
+    "connector": "mongodb"
+  }
+}

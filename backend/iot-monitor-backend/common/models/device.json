@@ -1,0 +1,27 @@
+{
+  "name": "Device",
+  "plural": "devices",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "index": {
+        "unique": true
+      }
+    },
+    "alive": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
